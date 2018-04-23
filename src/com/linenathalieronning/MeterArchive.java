@@ -224,7 +224,7 @@ public class MeterArchive{
                 System.out.println("Vennligst oppgi ny status: ");
                 boolean newStatus = scanner.nextBoolean();
                 m.setInstrumentStatus(newStatus);
-                System.out.println("");
+                System.out.println(" ");
                 System.out.println("Følgende instrument er endret: ");
                 System.out.println("\n-------------------------------------------------");
                 System.out.println("\n" + m);
